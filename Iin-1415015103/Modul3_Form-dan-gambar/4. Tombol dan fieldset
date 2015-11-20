@@ -1,0 +1,24 @@
+<!-- Tombol dan fieldset -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Informasi Kesehatan :
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Berat <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+		Bila tidak terlihat adanya borde di sekeliling from input, browser anda sudah terlalu lama.
+	</p>
+</body>
+</html>
+<!-- Analisis :  script ini berfungsi untuk menampilkan data informasi keshatan berupa, tinggi dan berat -->
