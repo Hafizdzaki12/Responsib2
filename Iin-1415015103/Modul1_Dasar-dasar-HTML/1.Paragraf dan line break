@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Belajar Web</title>
+</head>
+<body>
+<p> Paragraf ini
+mengandung banyak spasi dan baris tetapi browser sumbernya,
+akan mengabaikannya</p>
+<p>Sedangkan yang ini memiliki spasi panjang.</p>
+<p align="center"> jumlah baris dalam setiap paragraf tergantung pada ukuran window browser anda. Bila anda mengubah ukuran window browser, jumlah baris dalam paragraf akan berubah.
+</p>
+<p align="right"> 
+Untuk memotong <br>baris<br> dalam sebuah<br>paragraf,<br>gunakan tag br.
+</p>
+</body>
+</html>
