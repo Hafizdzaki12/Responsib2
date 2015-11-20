@@ -1,0 +1,25 @@
+<!-- Mengirim e-mail dari suatu form -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form action="@" method="post" enctype="text/plain">
+		<h3>
+		From ini mengirim sebuah e-mail ke w3c.</h3>
+		<input type="text" name="nama" value="Nama Anda" size="20">
+		<br>
+		Mail:
+		<br>
+		Komentar :
+		<br>
+		<input type="text" name="komentar" value="Komentar Anda" size="40">
+		<br>
+		<br>
+		<input type="submit" value "Send">
+		<input type="reset" value "Reset">
+	</form>
+</body>
+</html>
+<!-- Analisis : scirpt berfungsi untuk mengirim email dari suatu form w3c -->
