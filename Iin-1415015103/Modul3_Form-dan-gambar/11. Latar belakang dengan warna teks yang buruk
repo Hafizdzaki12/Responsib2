@@ -1,0 +1,15 @@
+<!-- Latar belakang dengan warna teks yang buruk -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body bgcolor="#ffffff" text="pink">
+<p>
+Paragraf ini terlihat tidak nyaman di baca karena  menggunakan kombinasi warna latar belakang dan 
+warna teks yang tidak sesuai.</p>
+</body>
+</html>
+<!-- Analisis : bgcolor="ffffff" sebagai penentuan kecerahan warna latar belakang pada sebuah halaman web.
+	(dalam script ini latar belakangnya berwrna putih)
+	text="yellow" sebagai warna huruf dalam sebuah paragraf -->
