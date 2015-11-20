@@ -1,0 +1,17 @@
+<?php
+$favcolor = "Pink";
+switch ($favcolor){
+	case "Pink":
+	echo "Your favorite color is Pink!";
+	break;
+	case "Blue":
+	echo "Your favorite color is Blue!";
+	break;
+	case "Green":
+	echo "Your favorite color is Green!";
+	break;
+	default:
+	echo "Your favorite color is neither Pink, Blue, Green!";
+
+}
+?>
