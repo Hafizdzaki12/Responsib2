@@ -1,0 +1,30 @@
+<!-- Checkbox dan tombol radio -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Saya memiliki sebuah sepeda :
+	<input type="checkbox" name="Sepeda">
+	<br>
+	Saya memiliki sebuah mobil :
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin anda ?
+	<br>
+	Pria :
+	<input type="radio" name="Sex" value="pria">
+	<br>
+	Wanita :
+	<input type="radio" name="Sex" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada sebuah tombol radi, tombol tersebut terlihat
+	diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda cek-nya
+	</p>
+</body>
+</html>
+<!-- Analisis :  cheackbox untuk inputan lebih dari satu dan boleh kosong, radio inputan hanya boleh 1 inputan -->
+	
