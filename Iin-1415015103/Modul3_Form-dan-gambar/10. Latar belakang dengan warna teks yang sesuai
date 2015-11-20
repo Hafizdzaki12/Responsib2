@@ -1,0 +1,15 @@
+<!-- Latar belakang dengan warna teks yang sesuai -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+<body bgcolor="#d0d0d0">
+<p>
+paragraf ini terlihat enak di baca karena menggunakan kombinasi warna latar belakang dan warna teks yang sesuai.
+</p>
+</body>
+</html>
+<!-- Analisis : bgcolor="#d0d0d0" sebagai penentuan kecerahan warna latar belakang pada sebuah halaman web.
+	(dalam script ini latar belakangnya agak gelap)
+	Untuk warna huruf dalam sebuah paragraf dalam script ini berwarna automatis(hitam) -->
