@@ -1,0 +1,18 @@
+<!-- Kotak drop down dengan nilai default -->
+
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+		<select name="mobil">
+			<option value="Volvo">Volvo
+			<option value="peugeot">Peugeot
+			<option value="fiat" selected>Fiat
+			<option value="jaguar">Jaguar
+		</select>
+		</form>
+</body>
+</html>
+<!-- Analisis :  script ini berfungsi untuk memilih merk mobil. -->
