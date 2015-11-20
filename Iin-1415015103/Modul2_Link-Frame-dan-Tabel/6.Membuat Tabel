@@ -1,0 +1,63 @@
+<html>
+<body>
+<p>
+Setiap tabel dimulai dengan tag table
+Setiap baris tabel dimulai dengan tag tr
+Setiap data dalam tabel dimulai dengan tag td
+</p>
+<h4>Satu baris satu kolom dengan border normal:</h4>
+<table border="1">
+<tr>
+<td>100</td>
+</tr>
+</table>
+<h4>Satu baris tiga kolom dengan border tebal:</h4>
+<table border="8">
+<tr>
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+</table>
+<h4>Dua baris tiga kolom dengan border sangat tebal:</h4>
+<table border="15">
+<tr>
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+<tr>
+<td>400</td>
+<td>500</td>
+<td>600</td>
+</tr>
+</table>
+<h4>lima baris dua kolom dengan inputan:</h4>
+<table border="2">
+<tr>
+<td>No</td>
+<td>Nama</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Iin Nurkarima</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Vinda Nur Vadillah</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Ananda Nur Syahidah</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Asdar Zulkiawan</td>
+</tr>
+</tr>
+</table>
+</body>
+</html>
+
+
+
