@@ -1,0 +1,3 @@
+<?php
+echo str_world_count("Hello world!");// outputs 2
+?>
