@@ -1,0 +1,24 @@
+<html>
+<body>
+<table boorder="1">
+<tr>
+<td>Teks</td>
+<td>Teks</td>
+</tr>
+<tr>
+<td></td>
+<td>Teks</td>
+</tr>
+<p>Seperti yang anda lihat, salah satu sel tidak memiliki border. Itu terjadi karena sel kosong. Cobalah untuk menyisipkan sebuah spasi kedalam sel tersebut.
+Taernyata tetap saja tidak memiliki border
+</p>
+<p>Cara yang benar adalah dengna menyisipkan spasi non-breaking didalam sel.
+</p>
+<p>Spasi non-breaking adalah sebuah entitas karakter. Bila anda tidak mengetahui apa yang disebut karakter entitas, baca kembali materi kuliah tentang hal tersebut.
+</p>
+<p>Entitas spasi non-breaking dimulai dengan tanda emparsand ("&"),
+kemudian karakter-karakter "nbsp", dan diakhiri dengan semicolon(";")
+</p>
+<p></p>
+</body>
+</html>
