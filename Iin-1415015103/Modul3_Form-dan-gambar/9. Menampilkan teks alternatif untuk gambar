@@ -1,0 +1,15 @@
+<!-- Analisis : Menampilkan teks alternatif untuk gambar. -->
+
+<html>
+<head>
+	<title>	Belajar PW</title>
+</head>
+	<body>
+	<img src="DSC_0152.JPG" title="Keterangan" width="32" height="32">
+	<p>
+	Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu keterangan".
+	ka teks alternatif akan di tampilkan.
+	</p>
+</body>
+</html>
+<!-- Analisis : script berfungsi untuk menampilkan teks alternatif untuk gambar. -->
