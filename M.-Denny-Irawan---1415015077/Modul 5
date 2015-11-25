@@ -1,0 +1,164 @@
+<?php 
+echo "<fieldset>";
+echo "<legend>1.Output Dengan PHP</legend>";
+echo "Hello World !!!!!";
+echo "</fieldset>";
+echo "<br>";
+?>
+ <html>
+ <head>
+ 	<title>Teknik Penggunaan PHP</title>
+ </head>
+ <body>
+<?php 
+echo "<fieldset>";
+echo "<legend>2.PHP dengan html</legend>";
+echo "Hello";
+echo "</fieldset>";
+echo "<br>";
+
+
+echo "<fieldset>";
+echo "<legend>3.Komentar Pada PHP</legend>";
+//Ini Adalah Komentar Sebaris
+
+#Ini Juga Sebaris Komentar
+
+/*Komentar dengan beberapa baris
+qwertyasdw
+1234567890
+*/
+
+// Anda juga dapat menggunakan komentar untuk meninggalkan bagian dari baris kode 
+$x = 3 /* + 15 */ +5;
+echo $x;
+echo "</fieldset>";
+echo "<br>";
+
+
+
+$warna = "Merah";
+echo "<fieldset>";
+echo "<legend>4.PHP Case Sensitive</legend>";
+echo "Mobil Saya Berwarna ".$warna."<br>";
+echo "Rumah Saya Berwarna ".$warna."<br>";
+echo "Kapal Saya Berwarna ".$warna."<br>";
+echo "</fieldset>";
+echo "<br>";
+ ?>
+ </body>
+ </html>
+
+
+ <?php 
+echo "<fieldset>";
+echo "<legend>Untuk No. 5, 6, 7, 8 Deklarasi Variabel Beserta Outputnya</legend>";
+$txt = "Hello World!";
+$p = 5;
+$o = 10.5;
+
+echo "I Say $txt! >>>>>Untuk variabel di dalam echo <br>";
+echo "I Say ".$txt."! >>>>>Untuk variabel diluar echo<br>";
+echo "Output dari P = ".$p."<br>";
+echo "Output dari O = " .$o."<br>";
+echo "Hasil Perkalian Antara O dan P ";
+echo $p*$o;
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>9.Mengetahui Panjang String </legend>";
+echo strlen ("Hello World !!!");
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>10.Menghitung Jumlah Kata Pada Kalimat</legend>";
+echo str_word_count("Hello World !!!");
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>11.Membalikan String </legend>";
+echo strrev("Hello World !!!");
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>12.Pencarian Dalam String</legend>";
+echo strpos("Hello World !!!","World");
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>13.Mengganti Text</legend>";
+echo "Sebelum Diganti = Hello World !!! <br>";
+echo str_replace("World","Dolly","Hello World !!!");
+echo " Sesudah diganti";
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>14.Fungsi Dasar</legend>";
+function tulispsn() {
+	echo "Terlalu Banyak Hello World !!!";
+}
+tulispsn();
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>15.Fungsi Dasar Dengan Argumen</legend>";
+function bajaklaut($blaut) {
+	echo "$blaut Adalah Bajak Laut.";
+	echo "<br>";
+}
+bajaklaut ("Luffy");
+bajaklaut ("Sanji");
+bajaklaut ("Zoro");
+bajaklaut ("Usopp");
+bajaklaut ("Chopper");
+bajaklaut ("Brook");
+bajaklaut ("Nami");
+bajaklaut ("Robin");
+bajaklaut ("Franky");
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>16.Fungsi Dengan lebih dari satu Argumen </legend>";
+function familyName($fname, $year) {
+    echo "$fname Refsnes. Born in $year <br>";
+}
+familyName("Hege", "1975");
+familyName("Stale", "1978");
+familyName("Kai Jim", "1983");
+
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>17.Fungsi Dengan Nilai Default Pada Argumen</legend>";
+function setHeight($minheight = 50) {
+	echo "Tingginya Adalah  =  $minheight <br>";
+}
+
+setHeight (356);
+setHeight (); //Menggunakan Nilai Default 50
+setHeight (101);
+setHeight (80);
+echo "</fieldset>";
+echo "<br>";
+
+echo "<fieldset>";
+echo "<legend>18.Fungsi yang mengembalikan nilai</legend>";
+function tambah($x, $y) {
+	$m = $x + $y;
+	return $m;
+}
+
+echo "5 + 10 = ".tambah(5,10)."<br>";
+echo "24 + 8 = ".tambah(24,8)."<br>";
+echo "2 + 9 = ".tambah(2,9)."<br>";
+
+  ?>
