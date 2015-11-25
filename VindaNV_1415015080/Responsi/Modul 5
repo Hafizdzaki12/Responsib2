@@ -1,0 +1,143 @@
+
+	<?php
+	echo "Hello World! "
+	 ?>
+
+	 <br>
+	<?php
+	//Nomor 2
+	echo "Hello World";
+	?>
+
+	<br>
+	<?php
+	//Nomor 3
+	/*Ini adalah nomor 3*/
+	$x=5 /* + 15 */ + 5;
+	echo $x;
+	?>
+
+	<br>
+	<?php
+	//Nomor 4
+	$color="red";
+	echo "My car is " . $color . "<br>" ;
+	echo "My house is " . $COLOR . "<br>" ;
+	echo "My boat is " . $coLOR . "<br>" ;
+	?>
+
+	<br>
+	<?php
+	//Nomor 5
+	$txt = "Hello World!";
+	$x=5;
+	$y=10.5;
+	?>
+
+	<br>
+	<?php
+	//Nomor 6
+	$txt="W3Schools.com";
+	echo "I Love $txt!";
+	?>
+
+	<br>
+	<?php
+	//Nomor 7
+	$txt="W3Schools.com";
+	echo "I Love" . $txt . "!";
+	?>
+
+	<br>
+	<?php
+	//Nomor 8
+	$x=5;
+	$y=4;
+	echo $x + $y;
+	?>
+
+	<br>
+	<?php
+	//Nomor 9
+	echo strlen("Hello World!");
+	?>
+
+	<br>
+	<?php
+	//Nomor 10
+	echo str_word_count("Hello World!");
+	?>
+
+	<br>
+	<?php
+	//Nomor 11
+	echo strrev("Hello World!");
+	?>
+
+	<br>
+	<?php
+	//Nomor 12
+	echo strpos("Hello world!", "world");
+	?>
+
+	<br>
+	<?php
+	//Nomor 13
+	echo str_replace("world" , "Dolly" , "Hello world!" )
+	?>
+
+	<?php
+	//Nomor 14
+	function writeMsg() {
+		echo "Hello world!";
+	}
+	writeMsg();
+	?>
+
+	<br>
+	<?php
+	//Nomor 15
+	function familyName($fname) {
+		echo "$fname Refsnes. <br>";
+	}
+	familyName("Jani");
+	familyName("Hege");
+	familyName("Stale");
+	familyName("Kai Jim");
+	familyName("Borge");
+	?>
+
+	//Nomor 16
+	function familyName($fname, $year) {
+		echo "$fname Refsnes. Born in $year <br>";
+	}
+	
+	familyName("Jani","1975" );
+	familyName("Stale","1978" );
+	familyName("Kai Jim","1983" );
+	?>
+
+	<br>
+	<?php
+	//Nomor 17
+	function setHeight($minheight=50) {
+		echo "The height is : $minheight <br>";
+	}
+	setHeight(350);
+	setHeight();
+	setHeight(135);
+	setHeight(80);
+	?>
+
+	<br>
+	<?php
+	//Nomor 18
+	function sum($x,$y) {
+		$z=$x+$y;
+		return $z;
+	}
+	echo "5+10=".sum(5,10)."<br>" ;
+	echo "7+13=".sum(7,13)."<br>" ;
+	echo "2+4=".sum(2,4);
+	?>
+	
