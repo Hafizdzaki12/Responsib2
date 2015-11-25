@@ -1,0 +1,73 @@
+<?php 
+	echo "<fieldset>";
+	echo "<legend>1.Mendeklarasikan dan Mengakses Array</legend>";
+	$cars = array("Volvo","BMW","TOYOTA");
+	echo "Aku Suka ".$cars[0].",".$cars[1]." and ".$cars[2].".";
+	echo ".<br><br>";
+	echo "</fieldset>";
+
+ ?>
+<?php 
+	echo "<fieldset>";
+	echo "<legend>2.MEngetahui Panjang Array</legend>";
+	$cars = array("Volvo","BMW","TOYOTA");
+	echo count($cars);
+	echo "<br><br>";
+	echo "</fieldset>";
+ ?>
+
+<?php 
+	echo "<fieldset>";
+	echo "<legend>3.Mengakses Array Melalui Perulangan (LOOP)</legend>";
+ 	$cars = array("Volvo","BMW","TOYOTA");
+	$arrlength = count($cars);
+
+	for($x=0;$x<$arrlength;$x++){
+		echo $cars[$x];
+		echo "<br>";
+}
+echo "</fieldset>";
+ ?>
+
+<?php 
+	echo "<fieldset>";
+	echo "<legend>4.Mendeklarasikan Asosiatif Array dan Mengaksesnya.</legend>";
+	$age = array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+	echo "Peter berumur ".$age['Peter']." Tahun.";
+	echo "<br><br>";
+	echo "</fieldset>";
+ ?>
+
+<?php 
+	echo "<fieldset>";
+	echo "<legend>5.Mengakses Semua nilai Asosiatif Array dengan Perulangan</legend>";
+	$age = array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+
+	foreach($age as $x=>$x_value){
+	echo "Kunci= ".$x.", Nilainya= ".$x_value;
+	echo "<br><br>";
+}
+echo "</fieldset>";
+ ?>
+
+<?php 
+	echo "<fieldset>";
+	echo "<legend>6.Array Multidimensi</legend>";
+	$cars=array
+	(
+		array("Volvo",22,18),
+		array("BMW",15,13),
+		array("Saab",5,2),
+		array("Land Rover",17,15)
+		);
+
+	for($row=0;$row<4;$row++){
+		echo "<p><b>Row Number $row</b></p>";
+		echo "<ul>";
+		for($col=0;$col<3;$col++){
+			echo "<li>".$cars[$row][$col]."<li>";
+		}
+		echo "</ul>";
+	}
+	echo "</fieldset>";
+ ?>
