@@ -1,0 +1,9 @@
+<?php
+	$cars=array("Andri","Ronaldo","Ronaldo","Andri","READ!!!<br>");
+	$arrLength=count($cars);
+	$haha=$arrLength;
+	for($x=0;$x<$haha;$x++) { 
+		echo $cars[$x];
+		echo "<br>";
+	}
+?>
