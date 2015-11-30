@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+<p>
+<a href="halaman.html">
+Teks ini </a> adalah sebuah link ke suatu halaman dalam situs web </p>
+<p>
+<a href="www.google.com">
+Teks ini </a> adalah sebuah link ke suatu halaman awal Situs Google </p>
+<p>
+<a href="#C4">
+Melompat kebagian lain halaman ini </a></p>
+<p> 
+Anda dapat juga menggunakan gambar sebagai sebuah link:
+<a href="3.JPEG">
+<img border="0" src="tombol.gif" width="65" height="38">
+</a>
+</p>
+<a href="baru.htm" target="_blank">halaman Berikutnya</a>
+<p>
+Bila anda memberikan atribut target sebuah link menjadi "_blank", Link tersebut akan membuka sebuah window browser baru</p>
+<p>
+<p> Ada tulisan disini (lakukan copy dan paste baris ini untuk baris berikutnya)
+</p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<a name="C4"><h2> Disinilah tujuan lompatan link internal anda </h2></a>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+<p> Ada tulisan disini </p>
+</p>
+
+<frameset rows="50%,50%" >
+<frame src="IMG_6685.JPG" align="center">
+<frameset cols="25%,75%">
+<frame src="IMG_6686.JPG">
+<frame src="IMG_6687.JPG">
+</frameset>
+</frameset>
+
+
+
+
+</body>
+</html>
