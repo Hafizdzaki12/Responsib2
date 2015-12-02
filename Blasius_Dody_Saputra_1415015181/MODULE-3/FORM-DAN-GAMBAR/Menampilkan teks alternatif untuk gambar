@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+	<img src="../images/gambar.gif" alt="Keterangan" width="32" height="32">
+	<p>
+	Browser text-only hanya akan menampilkan teks dalam atribut "alt", yaitu "Keterangan".
+	Perhatikan bahwa bilamana Anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+	</p>
+</body>
+</html>
