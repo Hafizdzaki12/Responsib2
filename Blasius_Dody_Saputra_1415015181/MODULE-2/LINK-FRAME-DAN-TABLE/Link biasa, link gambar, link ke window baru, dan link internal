@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+<p>
+<a href="halaman.html">
+Teks ini</a> adalah sebuah link ke suatu halaman dalam situs Web.
+</p>
+<p>
+<a href="http://www.google.com">
+Teks ini</a> adalah sebuah link ke halaman awal Situs Google.
+</p>
+<a href="#C4">
+Melompat ke bagian lain dalam halaman ini.
+</a>
+</p>
+<p>
+Anda dapat juga menggunakan gambar sebagai sebuah link:
+<a href="linkgambar.html">
+<img border="0" src="images.jpg" width="65" height="38">
+</a>
+</p>
+<a href="baru.html" target="_blank">halaman Berikutnya</a>
+<p>
+Bila Anda memberikan atribut target sebuah link menjadi "_blank",
+Link tersebut akan membuka sebuah window browser baru.
+</p>
+<p>
+<p> Ada tulisan disini (lakukan copy dan paste baris ini untuk baris berikutnya) 
+</p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<a name="C4"><h2> Disinilah tujuan lompatan link internal anda </h2></a>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+<p>Ada tulisan disini </p>
+</body>
+</html>
