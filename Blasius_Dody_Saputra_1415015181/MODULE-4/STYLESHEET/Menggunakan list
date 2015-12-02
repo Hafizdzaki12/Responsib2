@@ -1,0 +1,17 @@
+<html>
+<head>
+<style type="text/css">
+ul{
+list-style: square outside url("gambarkecil.gif");
+}
+</style>
+</head>
+<body>
+	<p>Disini Anda menggunakan gambar berukuran kecil sebagai bullet untuk lisy. Properti
+	<ul>
+	<li>Kopi</li>
+	<li>Teh</li>
+	<li>Coca Cola</li>
+	</ul>
+</body>
+</html>
