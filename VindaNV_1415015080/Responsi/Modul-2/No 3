@@ -1,0 +1,12 @@
+<html>
+
+<frameset rows="50%,50%" >
+<frame src="1.JPG" align="center">
+<frameset cols="25%,75%">
+<frame src="2.GIF">
+<frame src="3.JPG">
+</frameset>
+</frameset>
+
+
+</html>
