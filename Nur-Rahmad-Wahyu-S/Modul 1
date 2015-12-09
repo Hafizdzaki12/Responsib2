@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>Belajar Web</title>
+</head>
+<body>
+
+<p> Paragraf ini
+mengandung banyak spasi dan baris tetapi browser sumbernya,
+akan mengabaikannya</p>
+<p>Sedangkan yang ini memiliki spasi panjang.</p>
+<p align="center"> jumlah baris dalam setiap paragraf tergantung pada ukuran window browser anda. Bila anda mengubah ukuran window browser, jumlah baris dalam paragraf akan berubah.
+</p>
+<p align="right"> 
+Untuk memotong <br>baris<br> dalam sebuah<br>paragraf,<br>gunakan tag br.
+</p>
+<br>
+<body bgcolor="yellow">
+<p>Perhatikan bahwa halaman ini seharusnya berwarna kuning</p>
+<h1>Ini adalah heading 1</h1>
+<h2>Ini adalah heading 2</h2>
+<h3>Ini adalah heading 3</h3>
+<h4>Ini adalah heading 4</h4>
+<h5>Ini adalah heading 5</h5>
+<h6>Ini adalah heading 6</h6>
+<p>Gunakan tag heading hanya untuk membuat heading saja. Jangan menggunakan tag tersebut hanya untuk membuat tampilan huruf tebal. Gunakan tag lain untuk keperluan itu. </p>
+<h1 align="center"> Iini adalah heading 1</h1>
+<p>Heading dia atas telah di posisikan untuk berada di tengah halaman ini. </p>
+<br>
+<p>	Tag hr mendefinisikan sebuah garis horisontal, defaultnya adalah rata tengah:</p>
+<hr color="green">
+<p align="left"> Terdapat paragraf disini</p>
+<hr width="400" size="6" align="right" color="red">
+<center>
+<p>Terdapat paragraf disini</p>
+</center>
+<!- Ini adalah komentar yang tidak akan ditampilkan dilayar browser -->
+<br>
+<b>Teks ini tebal</b>
+<br>
+<strong>Teks ini juga tebal</strong>
+<br>
+<big>Teks ini hurufnya besar</big>
+<br>
+<em>Teks ini miring</em>
+<br>
+<i>Teks ini juga miring</i>
+<br>
+<small>Teks ini hurufnya kecil</small>
+<br>
+Teks ini berisi <sub>Subacript</sub>
+<br>
+Teks ini berisi <sup>Superscript</sup>
+<pre>
+Ini adalah
+Teks yang di-preformat.
+Preformat akan menampilkan spasi dan line break apa adanya</pre>
+<p>Tag pre cocok untuk menampilkan kode komputer dibawah ini:</p>
+<pre>
+for i = 1 to 10
+print i
+next i
+</pre>
+<br>
+<p> Bila browser anda mendukung kemampuan birectional override (bdo), baris berikut ini akan dituliskan dari kanan ke kiri (trl):
+</p>
+<bdo dir="rtl">
+Anggap saja ini tulisan bahsa arab</bdo>
+<br> Ini adalah contoh quotation panjang:
+<blockquote>
+Ini adalah quotation panjang. Ini adalah quotation panjang. Ini adalah quotation panjang. Ini adalah quotation panjang. Ini adalah quotation panjang. Ini adalah quotation panjang. Ini adalah quotation panjang.
+</blockquote>
+<q>
+Ini adalah contoh quotation pendek:
+</q>
+<p>
+Menggunakan elemen balockout, browser menyisipkan line break dan margin, tetapi elemen q tidak akan menampilkan apapun yang khusus.</p>
+<br>
+<h4>Sebentuk list unordered:</h4>
+<ul>
+<li>Kopi</li>
+<li>Teh</li>
+<li>Susu</li>
+</ul>
+<br>
+<h4>Sebentuk list ordered:</h4>
+<ol>
+<li>Kopi</li>
+<li>Teh</li>
+<li>Susu</li>
+</ol>
+<br>
+<h4>List bernomor:</h4>
+<ol>
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ol>
+<h4>List dengan huruf kecil:</h4>
+<ol type="a">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ol>
+<h4>List dengan angka romawi:</h4>
+<ol type="I">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ol>
+<h4>List dengan hangka romawi kecil:</h4>
+<ol type="i">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ol>
+<br>
+<h4>List dengan bullet berbentuk disc:</h4>
+<ul type="disc">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ul>
+<h4>List dengan bullet berbentuk lingkaran:</h4>
+<ul type="circle">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ul>
+<h4>List dengan bullet berbentuk kotak:</h4>
+<ul type="square">
+<li>Apel</li>
+<li>Pisang</li>
+<li>Lemon</li>
+<li>Jeruk</li>
+</ul>
+<br>
+<h4>Sebuah list bersarang:</h4>
+<ul>
+<li>Kopi</li>
+<li>Teh
+<ul>
+<li>Teh Hitam</li>
+<li>Teh Hijau</li>
+</ul>
+</li>
+<li>Susu</li>
+</ul>
+<br>
+<h4>Sebuah disk bersarang:</h4>
+<dl>
+<dt>Kopi</dt>
+<dd>Minuman panas hitam</dd>
+<dt>Susu</dt>
+<dd>Minuman dingin putih</dd>
+</dl>
+
+</body>
+
+
+
+</body>
+</html>
