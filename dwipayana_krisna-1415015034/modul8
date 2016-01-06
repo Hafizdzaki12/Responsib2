@@ -1,0 +1,285 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+echo "Connected successfully.";
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//Membuat database
+$sql = "CREATE DATABASE myDB";
+if (mysqli_query($conn, $sql)) {
+	echo "Database created successfully.";
+}
+else {
+	echo "Error creating database: " . mysqli_error($conn);
+}
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk membuat tabel
+$sql = "CREATE TABLE MyGuests (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	firstname VARCHAR(30) NOT NULL,
+	lastname VARCHAR(30) NOT NULL,
+	email VARCHAR(50),
+	reg_date TIMESTAMP
+	)";
+
+if (mysqli_query($conn, $sql)) {
+	echo "Table MyGuests created succesfully.";
+}
+else {
+	echo "Error creating table: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk insert data
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('John', 'Doe', 'john@example.com')";
+
+if (mysqli_query($conn, $sql)) {
+	echo "New record created successfully.";
+}
+else {
+	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('John', 'Doe', 'john@example.com')";
+
+if (mysqli_query($conn, $sql)) {
+	$last_id = mysqli_insert_id($conn);
+	echo "New record created successfully. Last inserted ID is: " . $last_id;
+}
+else {
+	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk insert data pada tabel
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('John', 'Doe', 'john@example.com')";
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('Mary', 'Moe', 'mary@example.com')";
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('Julie', 'Dooley', 'julie@example.com')";
+
+if (mysqli_query($conn, $sql)) {
+	$last_id = mysqli_insert_id($conn);
+	echo "New records created successfully.";
+}
+else {
+	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);	
+}
+
+//Prepare dan bind
+$stmt = $conn->prepare("INSERT INTO MyGuests (firstname, lastname, email) VALUES (?, ?, ?)");
+$stmt->bind_param("sss", $firstname, $lastname, $email);
+
+//Set parameter dan eksekusi
+$firstname = "John";
+$lastname = "Doe";
+$email = "john@example.com";
+$stmt->execute();
+
+$firstname = "Mary";
+$lastname = "Moe";
+$email = "mary@example.com";
+$stmt->execute();
+
+$firstname = "Julie";
+$lastname = "Dooley";
+$email = "julie@example.com";
+$stmt->execute();
+
+echo "New records created succesfully.";
+
+$stmt->close();
+$conn->close();
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk select data pada tabel
+$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+	//Output data untuk setiap baris
+	while ($row = mysqli_fetch_assoc($result)) {
+		echo "ID: " . $row["id"] . " - Name: " . $row["firstname"] . " " . $row["lastname"] . "<br>";
+	}
+}
+else {
+	echo "0 results.";
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk menghapus sebuah record
+$sql = "DELETE FROM MyGuests WHERE id=3";
+
+if (mysqli_query($conn, $sql)) {
+	echo "Record deleted succesfully.";
+}
+else {
+	echo "Error deleting record: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+
+//Membuat koneksi
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+//Cek koneksi
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());	
+}
+
+//sql untuk mengubah data pada tabel
+$sql = "UPDATE MyGuests SET lastname = 'Doe' WHERE id = 2";
+
+if (mysqli_query($conn, $sql)) {
+	echo "Record updated successfully.";
+}
+else {
+	echo "Error updating record: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
